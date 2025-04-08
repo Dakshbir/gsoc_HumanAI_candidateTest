@@ -1,0 +1,101 @@
+id,text,created_at,likes,retweets,replies,cleaned_text,sentiment,risk_score,risk_level
+1000000100,mental health struggle in San Antonio. It's getting really hard.,2025-01-24 13:54:04,32,6,21,mental health struggle,Neutral,0.0,Low Concern
+1000000101,suicidal thoughts in San Diego. It's getting really hard.,2025-03-24 05:57:49,47,2,34,suicidal thoughts,Negative,0.85,High-Risk
+1000000102,addiction help in New York. It's getting really hard.,2025-01-27 01:33:39,48,21,38,addiction help,Neutral,0.0,Low Concern
+1000000103,can't go on in New York. It's getting really hard.,2025-03-26 19:40:59,9,6,37,cant go on,Negative,0.7,High-Risk
+1000000104,self-harm in Houston. It's getting really hard.,2025-02-16 13:04:10,26,27,21,self-harm,Negative,0.8,High-Risk
+1000000105,don't want to live in New York. It's getting really hard.,2025-01-21 13:32:52,24,30,7,dont want to live,Negative,0.9,High-Risk
+1000000106,panic attack in Houston. It's getting really hard.,2025-03-09 12:55:36,77,22,13,panic attack,Negative,0.0,Moderate Concern
+1000000107,hopeless in Houston. It's getting really hard.,2025-02-23 14:26:16,41,24,18,hopeless,Negative,0.6,High-Risk
+1000000108,hopeless in San Diego. It's getting really hard.,2025-02-21 19:29:41,83,11,19,hopeless,Negative,0.6,High-Risk
+1000000109,don't want to live in Philadelphia. It's getting really hard.,2025-02-19 18:56:56,63,14,6,dont want to live,Negative,0.9,High-Risk
+1000000110,panic attack in Philadelphia. It's getting really hard.,2025-03-30 18:32:40,26,11,20,panic attack,Negative,0.0,Moderate Concern
+1000000111,hopeless in New York. It's getting really hard.,2025-02-24 14:46:39,28,23,9,hopeless,Negative,0.6,High-Risk
+1000000112,feeling depressed in Phoenix. It's getting really hard.,2025-02-23 17:18:33,74,18,26,feeling depressed,Negative,0.0,Moderate Concern
+1000000113,don't want to live in Chicago. It's getting really hard.,2025-01-20 01:09:35,42,7,24,dont want to live,Negative,0.9,High-Risk
+1000000114,can't go on in Houston. It's getting really hard.,2025-02-18 11:27:24,70,20,21,cant go on,Negative,0.7,High-Risk
+1000000115,don't want to live in San Diego. It's getting really hard.,2025-04-04 20:07:38,92,20,31,dont want to live,Negative,0.9,High-Risk
+1000000116,panic attack in Chicago. It's getting really hard.,2025-03-13 03:28:59,45,5,8,panic attack,Negative,0.0,Moderate Concern
+1000000117,self-harm in San Diego. It's getting really hard.,2025-01-18 20:51:44,69,20,3,self-harm,Negative,0.8,High-Risk
+1000000118,self-harm in New York. It's getting really hard.,2025-03-23 11:10:16,9,30,3,self-harm,Negative,0.8,High-Risk
+1000000119,feeling depressed in San Antonio. It's getting really hard.,2025-01-14 08:22:42,80,7,4,feeling depressed,Negative,0.0,Moderate Concern
+1000000120,mental health struggle in New York. It's getting really hard.,2025-01-22 05:39:13,64,14,23,mental health struggle,Neutral,0.0,Low Concern
+1000000121,feeling depressed in Boston. It's getting really hard.,2025-03-03 22:00:55,85,29,39,feeling depressed,Negative,0.0,Moderate Concern
+1000000122,panic attack in San Diego. It's getting really hard.,2025-01-02 12:39:27,0,17,35,panic attack,Negative,0.0,Moderate Concern
+1000000123,hopeless in New York. It's getting really hard.,2025-01-02 14:58:29,67,23,17,hopeless,Negative,0.6,High-Risk
+1000000124,self-harm in Phoenix. It's getting really hard.,2025-01-02 15:56:42,64,26,27,self-harm,Negative,0.8,High-Risk
+1000000125,mental health struggle in Los Angeles. It's getting really hard.,2025-03-31 03:12:31,12,16,9,mental health struggle,Neutral,0.0,Low Concern
+1000000126,addiction help in Houston. It's getting really hard.,2025-03-02 04:11:38,67,8,22,addiction help,Neutral,0.0,Low Concern
+1000000127,don't want to live in San Antonio. It's getting really hard.,2025-01-08 16:07:41,47,30,25,dont want to live,Negative,0.9,High-Risk
+1000000128,panic attack in Boston. It's getting really hard.,2025-01-24 14:42:55,89,7,19,panic attack,Negative,0.0,Moderate Concern
+1000000129,suicidal thoughts in New York. It's getting really hard.,2025-01-10 01:52:19,51,12,24,suicidal thoughts,Negative,0.85,High-Risk
+1000000130,self-harm in San Diego. It's getting really hard.,2025-01-06 10:45:26,81,0,10,self-harm,Negative,0.8,High-Risk
+1000000131,suicidal thoughts in San Diego. It's getting really hard.,2025-03-24 01:45:40,55,20,21,suicidal thoughts,Negative,0.85,High-Risk
+1000000132,can't go on in Los Angeles. It's getting really hard.,2025-03-28 21:00:52,67,29,2,cant go on,Negative,0.7,High-Risk
+1000000133,addiction help in Houston. It's getting really hard.,2025-03-29 12:07:05,88,28,36,addiction help,Neutral,0.0,Low Concern
+1000000134,panic attack in Phoenix. It's getting really hard.,2025-01-05 12:29:50,9,21,17,panic attack,Negative,0.0,Moderate Concern
+1000000135,self-harm in Boston. It's getting really hard.,2025-03-05 21:30:20,4,5,20,self-harm,Negative,0.8,High-Risk
+1000000136,feeling depressed in Houston. It's getting really hard.,2025-02-26 23:53:35,18,24,25,feeling depressed,Negative,0.0,Moderate Concern
+1000000137,suicidal thoughts in Phoenix. It's getting really hard.,2025-01-16 18:32:11,72,7,36,suicidal thoughts,Negative,0.85,High-Risk
+1000000138,hopeless in Dallas. It's getting really hard.,2025-02-02 04:59:11,49,24,8,hopeless,Negative,0.6,High-Risk
+1000000139,suicidal thoughts in Dallas. It's getting really hard.,2025-03-14 09:02:22,44,1,6,suicidal thoughts,Negative,0.85,High-Risk
+1000000140,hopeless in Houston. It's getting really hard.,2025-03-23 10:15:12,9,10,38,hopeless,Negative,0.6,High-Risk
+1000000141,can't go on in Boston. It's getting really hard.,2025-02-08 12:23:06,99,10,1,cant go on,Negative,0.7,High-Risk
+1000000142,don't want to live in San Diego. It's getting really hard.,2025-02-17 15:11:20,29,11,35,dont want to live,Negative,0.9,High-Risk
+1000000143,hopeless in San Antonio. It's getting really hard.,2025-01-19 00:48:01,87,18,24,hopeless,Negative,0.6,High-Risk
+1000000144,suicidal thoughts in Boston. It's getting really hard.,2025-01-29 16:17:02,31,22,4,suicidal thoughts,Negative,0.85,High-Risk
+1000000145,suicidal thoughts in Phoenix. It's getting really hard.,2025-01-15 23:21:39,48,22,40,suicidal thoughts,Negative,0.85,High-Risk
+1000000146,mental health struggle in San Antonio. It's getting really hard.,2025-01-31 17:54:49,46,3,5,mental health struggle,Neutral,0.0,Low Concern
+1000000147,feeling depressed in Phoenix. It's getting really hard.,2025-02-13 04:18:34,46,24,17,feeling depressed,Negative,0.0,Moderate Concern
+1000000148,suicidal thoughts in Chicago. It's getting really hard.,2025-01-09 11:25:02,23,13,28,suicidal thoughts,Negative,0.85,High-Risk
+1000000149,self-harm in Dallas. It's getting really hard.,2025-02-19 18:04:25,52,3,1,self-harm,Negative,0.8,High-Risk
+1000000150,suicidal thoughts in Philadelphia. It's getting really hard.,2025-02-23 19:25:32,11,19,38,suicidal thoughts,Negative,0.85,High-Risk
+1000000151,overwhelmed in San Antonio. It's getting really hard.,2025-01-02 04:45:20,37,13,24,overwhelmed,Negative,0.0,Moderate Concern
+1000000152,suicidal thoughts in Dallas. It's getting really hard.,2025-03-29 21:17:11,31,18,33,suicidal thoughts,Negative,0.85,High-Risk
+1000000153,mental health struggle in San Antonio. It's getting really hard.,2025-01-17 10:58:03,17,8,19,mental health struggle,Neutral,0.0,Low Concern
+1000000154,don't want to live in San Diego. It's getting really hard.,2025-01-15 04:03:10,8,5,27,dont want to live,Negative,0.9,High-Risk
+1000000155,don't want to live in San Antonio. It's getting really hard.,2025-01-30 02:28:24,61,25,4,dont want to live,Negative,0.9,High-Risk
+1000000156,overwhelmed in Phoenix. It's getting really hard.,2025-04-02 16:11:50,31,23,40,overwhelmed,Negative,0.0,Moderate Concern
+1000000157,panic attack in Boston. It's getting really hard.,2025-03-01 20:56:32,25,14,6,panic attack,Negative,0.0,Moderate Concern
+1000000158,mental health struggle in Phoenix. It's getting really hard.,2025-01-01 15:46:08,50,10,39,mental health struggle,Neutral,0.0,Low Concern
+1000000159,hopeless in Philadelphia. It's getting really hard.,2025-02-12 17:47:37,42,13,38,hopeless,Negative,0.6,High-Risk
+1000000160,mental health struggle in Phoenix. It's getting really hard.,2025-02-01 03:12:14,77,30,12,mental health struggle,Neutral,0.0,Low Concern
+1000000161,panic attack in Philadelphia. It's getting really hard.,2025-01-18 05:55:29,50,30,20,panic attack,Negative,0.0,Moderate Concern
+1000000162,don't want to live in San Diego. It's getting really hard.,2025-04-04 23:03:05,73,25,15,dont want to live,Negative,0.9,High-Risk
+1000000163,overwhelmed in San Antonio. It's getting really hard.,2025-01-28 05:08:48,100,12,23,overwhelmed,Negative,0.0,Moderate Concern
+1000000164,suicidal thoughts in Boston. It's getting really hard.,2025-01-20 09:34:04,75,17,11,suicidal thoughts,Negative,0.85,High-Risk
+1000000165,self-harm in New York. It's getting really hard.,2025-04-03 12:39:42,93,14,13,self-harm,Negative,0.8,High-Risk
+1000000166,panic attack in Phoenix. It's getting really hard.,2025-03-22 17:01:37,88,2,26,panic attack,Negative,0.0,Moderate Concern
+1000000167,panic attack in Chicago. It's getting really hard.,2025-03-03 11:46:47,38,7,16,panic attack,Negative,0.0,Moderate Concern
+1000000168,mental health struggle in San Antonio. It's getting really hard.,2025-03-18 14:40:55,48,2,28,mental health struggle,Neutral,0.0,Low Concern
+1000000169,can't go on in San Diego. It's getting really hard.,2025-02-26 12:43:36,51,17,32,cant go on,Negative,0.7,High-Risk
+1000000170,hopeless in Dallas. It's getting really hard.,2025-01-04 13:40:08,46,22,34,hopeless,Negative,0.6,High-Risk
+1000000171,can't go on in Los Angeles. It's getting really hard.,2025-01-11 14:50:57,98,7,22,cant go on,Negative,0.7,High-Risk
+1000000172,mental health struggle in Boston. It's getting really hard.,2025-01-05 07:13:07,72,20,25,mental health struggle,Neutral,0.0,Low Concern
+1000000173,overwhelmed in San Antonio. It's getting really hard.,2025-01-11 06:52:07,1,3,16,overwhelmed,Negative,0.0,Moderate Concern
+1000000174,addiction help in Dallas. It's getting really hard.,2025-03-14 12:17:37,66,17,37,addiction help,Neutral,0.0,Low Concern
+1000000175,can't go on in Houston. It's getting really hard.,2025-02-13 06:44:21,47,12,29,cant go on,Negative,0.7,High-Risk
+1000000176,can't go on in Dallas. It's getting really hard.,2025-01-15 15:15:40,44,0,30,cant go on,Negative,0.7,High-Risk
+1000000177,suicidal thoughts in Phoenix. It's getting really hard.,2025-02-10 09:17:34,10,3,9,suicidal thoughts,Negative,0.85,High-Risk
+1000000178,overwhelmed in Phoenix. It's getting really hard.,2025-02-03 07:24:11,58,25,13,overwhelmed,Negative,0.0,Moderate Concern
+1000000179,self-harm in San Diego. It's getting really hard.,2025-02-03 19:35:54,60,3,28,self-harm,Negative,0.8,High-Risk
+1000000180,panic attack in Philadelphia. It's getting really hard.,2025-01-07 12:31:39,38,1,7,panic attack,Negative,0.0,Moderate Concern
+1000000181,feeling depressed in Philadelphia. It's getting really hard.,2025-03-04 21:52:45,13,21,10,feeling depressed,Negative,0.0,Moderate Concern
+1000000182,addiction help in Dallas. It's getting really hard.,2025-01-17 22:30:19,70,5,21,addiction help,Neutral,0.0,Low Concern
+1000000183,self-harm in San Antonio. It's getting really hard.,2025-04-04 01:22:47,59,7,25,self-harm,Negative,0.8,High-Risk
+1000000184,mental health struggle in Chicago. It's getting really hard.,2025-03-04 04:25:26,84,13,25,mental health struggle,Neutral,0.0,Low Concern
+1000000185,feeling depressed in Boston. It's getting really hard.,2025-03-27 17:45:57,25,14,37,feeling depressed,Negative,0.0,Moderate Concern
+1000000186,hopeless in San Antonio. It's getting really hard.,2025-01-01 10:22:09,90,6,13,hopeless,Negative,0.6,High-Risk
+1000000187,don't want to live in Los Angeles. It's getting really hard.,2025-02-26 01:19:05,13,25,34,dont want to live,Negative,0.9,High-Risk
+1000000188,mental health struggle in Philadelphia. It's getting really hard.,2025-02-01 15:35:59,25,14,7,mental health struggle,Neutral,0.0,Low Concern
+1000000189,don't want to live in San Diego. It's getting really hard.,2025-02-21 05:39:54,81,10,38,dont want to live,Negative,0.9,High-Risk
+1000000190,hopeless in Boston. It's getting really hard.,2025-02-08 02:41:37,75,3,22,hopeless,Negative,0.6,High-Risk
+1000000191,overwhelmed in San Diego. It's getting really hard.,2025-03-01 22:33:33,22,26,19,overwhelmed,Negative,0.0,Moderate Concern
+1000000192,can't go on in Boston. It's getting really hard.,2025-01-09 05:29:11,86,4,20,cant go on,Negative,0.7,High-Risk
+1000000193,suicidal thoughts in Houston. It's getting really hard.,2025-01-30 15:35:13,14,5,23,suicidal thoughts,Negative,0.85,High-Risk
+1000000194,mental health struggle in Dallas. It's getting really hard.,2025-02-07 17:11:06,53,19,8,mental health struggle,Neutral,0.0,Low Concern
+1000000195,can't go on in San Antonio. It's getting really hard.,2025-02-11 01:45:06,23,15,40,cant go on,Negative,0.7,High-Risk
+1000000196,self-harm in Chicago. It's getting really hard.,2025-02-23 21:02:24,21,15,18,self-harm,Negative,0.8,High-Risk
+1000000197,mental health struggle in Chicago. It's getting really hard.,2025-01-31 13:01:28,57,19,3,mental health struggle,Neutral,0.0,Low Concern
+1000000198,overwhelmed in New York. It's getting really hard.,2025-02-17 01:13:14,17,6,24,overwhelmed,Negative,0.0,Moderate Concern
+1000000199,self-harm in Dallas. It's getting really hard.,2025-03-05 09:45:46,63,13,31,self-harm,Negative,0.8,High-Risk

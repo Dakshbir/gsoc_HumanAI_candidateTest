@@ -1,0 +1,9 @@
+tweepy
+pandas
+nltk
+vaderSentiment
+spacy
+folium
+matplotlib
+seaborn
+python-dotenv

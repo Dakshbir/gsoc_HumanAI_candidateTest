@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crisis Hotspot Analysis</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .map-container {
+            position: relative;
+            width: 100%;
+            height: 500px;
+            margin-bottom: 30px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        .map-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .hotspot {
+            position: absolute;
+            border-radius: 50%;
+            background-color: rgba(255, 0, 0, 0.5);
+            box-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .hotspot:hover {
+            transform: scale(1.2);
+            background-color: rgba(255, 0, 0, 0.8);
+        }
+        .tooltip {
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 10px;
+            border-radius: 4px;
+            font-size: 14px;
+            z-index: 100;
+            display: none;
+            max-width: 200px;
+        }
+        .legend {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .high-risk {
+            background-color: rgba(255, 0, 0, 0.8);
+        }
+        .moderate-risk {
+            background-color: rgba(255, 165, 0, 0.8);
+        }
+        .low-risk {
+            background-color: rgba(255, 255, 0, 0.8);
+        }
+        .stats {
+            margin-top: 30px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Mental Health Crisis Hotspot Analysis</h1>
+        
+        <div class="map-container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Map_of_USA_with_state_names.svg" alt="USA Map">
+            
+            <!-- High Risk Hotspots -->
+            <div class="hotspot" style="top: 180px; left: 720px; width: 30px; height: 30px; background-color: rgba(255, 0, 0, 0.8);" onmouseover="showTooltip(event, 'New York: 65 crisis mentions<br>Risk Level: High-Risk<br>Sentiment: Predominantly Negative')" onmouseout="hideTooltip()"></div>
+            
+            <div class="hotspot" style="top: 250px; left: 150px; width: 25px; height: 25px; background-color: rgba(255, 0, 0, 0.7);" onmouseover="showTooltip(event, 'Los Angeles: 30 crisis mentions<br>Risk Level: High-Risk<br>Sentiment: Predominantly Negative')" onmouseout="hideTooltip()"></div>
+            
+            <div class="hotspot" style="top: 160px; left: 550px; width: 40px; height: 40px; background-color: rgba(255, 0, 0, 0.9);" onmouseover="showTooltip(event, 'Chicago: 142 crisis mentions<br>Risk Level: High-Risk<br>Sentiment: Mixed')" onmouseout="hideTooltip()"></div>
+            
+            <!-- Moderate Risk Hotspots -->
+            <div class="hotspot" style="top: 330px; left: 450px; width: 30px; height: 30px; background-color: rgba(255, 165, 0, 0.8);" onmouseover="showTooltip(event, 'Houston: 65 crisis mentions<br>Risk Level: Moderate Concern<br>Sentiment: Mixed')" onmouseout="hideTooltip()"></div>
+            
+            <div class="hotspot" style="top: 180px; left: 380px; width: 25px; height: 25px; background-color: rgba(255, 165, 0, 0.7);" onmouseover="showTooltip(event, 'Denver: 48 crisis mentions<br>Risk Level: Moderate Concern<br>Sentiment: Negative')" onmouseout="hideTooltip()"></div>
+            
+            <!-- Low Risk Hotspots -->
+            <div class="hotspot" style="top: 280px; left: 180px; width: 20px; height: 20px; background-color: rgba(255, 255, 0, 0.7);" onmouseover="showTooltip(event, 'Phoenix: 12 crisis mentions<br>Risk Level: Low Concern<br>Sentiment: Mixed')" onmouseout="hideTooltip()"></div>
+            
+            <div class="hotspot" style="top: 150px; left: 100px; width: 15px; height: 15px; background-color: rgba(255, 255, 0, 0.6);" onmouseover="showTooltip(event, 'Seattle: 8 crisis mentions<br>Risk Level: Low Concern<br>Sentiment: Neutral')" onmouseout="hideTooltip()"></div>
+            
+            <div id="tooltip" class="tooltip"></div>
+        </div>
+        
+        <div class="legend">
+            <h3>Legend</h3>
+            <div class="legend-item">
+                <div class="legend-color high-risk"></div>
+                <div>High-Risk Crisis Areas (>30 mentions)</div>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color moderate-risk"></div>
+                <div>Moderate Concern Areas (10-30 mentions)</div>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color low-risk"></div>
+                <div>Low Concern Areas (<10 mentions)</div>
+            </div>
+        </div>
+        
+        <div class="stats">
+            <h3>Top 5 Locations with Highest Crisis Mentions</h3>
+            <table>
+                <tr>
+                    <th>Location</th>
+                    <th>Crisis Mentions</th>
+                    <th>Predominant Risk Level</th>
+                    <th>Predominant Sentiment</th>
+                </tr>
+                <tr>
+                    <td>Chicago</td>
+                    <td>142</td>
+                    <td>High-Risk</td>
+                    <td>Mixed</td>
+                </tr>
+                <tr>
+                    <td>Philadelphia</td>
+                    <td>93</td>
+                    <td>Moderate Concern</td>
+                    <td>Negative</td>
+                </tr>
+                <tr>
+                    <td>New York</td>
+                    <td>65</td>
+                    <td>High-Risk</td>
+                    <td>Negative</td>
+                </tr>
+                <tr>
+                    <td>Houston</td>
+                    <td>65</td>
+                    <td>Moderate Concern</td>
+                    <td>Mixed</td>
+                </tr>
+                <tr>
+                    <td>San Diego</td>
+                    <td>61</td>
+                    <td>Moderate Concern</td>
+                    <td>Negative</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        function showTooltip(event, text) {
+            const tooltip = document.getElementById('tooltip');
+            tooltip.innerHTML = text;
+            tooltip.style.display = 'block';
+            tooltip.style.left = (event.pageX + 10) + 'px';
+            tooltip.style.top = (event.pageY + 10) + 'px';
+        }
+        
+        function hideTooltip() {
+            document.getElementById('tooltip').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
